@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <div id="box1">
+            <img id="header-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Square_-_black_simple.svg/1200px-Square_-_black_simple.svg.png"
+                alt="blockyblock logo">
+            <h1 id="name">Squares</h1>
+        </div>
+        <nav id="nav-bar">
+            <a id="1" class="nav-link" href="#about">About</a>
+            <a id="2" class="nav-link" href="#features">Features</a>
+            <a id="3" class="nav-link" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div id="squares">
+        <div id="sq1"></div>
+        <div id="sq2"></div>
+        <div id="sq3"></div>
+        <div id="sq4"></div>
+    </div>
+    <div id="sectionContainer">
+        <section id="about">
+            <h2>About</h2>
+            <p>Squares is #1 in the world of squares. We design and manufacture best quality squares. Big, small,
+                squared, round, visible, invisible you name it! We can do all of them<p>
+        </section>
+        <section id="features">
+            <h2 style="text-align: center">Features</h2>
+            <div id="features-media1">
+                <div class="featuresContainer">
+                    <div class="icon">
+                        <i class="fas fa-square-full"></i>
+                    </div>
+                    <div class="desc">
+                        <h3>It's a square!</h3>
+                        <p>Squares are the best! Everyone should have one</p>
+                    </div>
+                </div>
+                <div class="featuresContainer">
+                    <div class="icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <div class="desc">
+                        <h3>Fast delivery</h3>
+                        <p>Our delivery tracks are super fast</p>
+                    </div>
+                </div>
+                <div class="featuresContainer">
+                    <div class="icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="desc">
+                        <h3>Quality Assurance</h3>
+                        <p>We make sure that all our squares are perfect before we deliver them</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <iframe id="video" width="540" height="350" src="https://www.youtube.com/embed/I9mFgJCW63o" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="form" action="https://www.freecodecamp.org/email-submit">
+                <label for="email">If you want to get yourself some perfect squares, leave your email below</label><br>
+                <input id="email" type="email" name="email" placeholder="Enter you email" required></input>
+                <input id="submit" type="submit" value="Submit"></input>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
